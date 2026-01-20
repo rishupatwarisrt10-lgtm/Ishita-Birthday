@@ -16,7 +16,7 @@ export default defineConfig(() => {
     },
     build: {
       target: 'ES2022',
-      minify: 'terser',
+      minify: true,
       terserOptions: {
         compress: {
           drop_console: true,
