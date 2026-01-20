@@ -32,7 +32,7 @@ export default defineConfig(() => {
           },
         },
       },
-      cssMinify: 'lightningcss',
+      cssMinify: true,
       reportCompressedSize: true,
       chunkSizeWarningLimit: 600,
       sourcemap: false,
